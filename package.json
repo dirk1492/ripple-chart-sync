@@ -1,0 +1,22 @@
+{
+  "name": "ripple",
+  "version": "0.0.1",
+  "description": "Read and export ripple data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.0.5",
+    "promise-sequential": "^1.1.1",
+    "tslint": "^5.9.1",
+    "typed-rest-client": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.2",
+    "@types/mongodb": "^3.0.5",
+    "typescript": "^2.8.1"
+  }
+}
