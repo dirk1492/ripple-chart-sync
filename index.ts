@@ -22,10 +22,10 @@ class Main {
         await this.client.syncAll(db)
 
 
-        var timeseries = new Timeseries("RippleTimeSeries")
-        await timeseries.connect();
+        //var timeseries = new Timeseries("RippleTimeSeries")
+        //await timeseries.connect();
 
-        await timeseries.create(db, Provider.Gatehub, Currency.XRP, Currency.USD)
+        //await timeseries.create(db, Provider.Gatehub, Currency.XRP, Currency.USD)
 
 
         await db.close(false)
